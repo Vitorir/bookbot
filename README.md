@@ -1,2 +1,1 @@
-# The Project
-Text analysis Python bot
+BookBot is my first project!
