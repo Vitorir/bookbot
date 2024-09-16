@@ -3,12 +3,13 @@ def main():
     text = get_book_text(path_to_file)
     # words = return_words(text)
     # print(words)
-    # print(f'Number of words in the book: {len(return_words(text))}')
+    print(f'Number of words in the book: {len(return_words(text))}')
     dic = number_of_times_character_appears_dict(text)
 
     list_of_dicts = [{'key': key, 'num': value} for key, value in dic.items()]
     list_of_dicts.sort(reverse=True, key=sort_on)
     print(list_of_dicts)
+    print(number_of_times_character_appears_dict(text))
 
 
 def get_book_text(path):
